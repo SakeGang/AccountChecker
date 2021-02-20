@@ -1,4 +1,4 @@
-import requests
+import requests, time
 print("""
 
 
@@ -19,4 +19,23 @@ print("""
 [5] Steam Checker 
 [6] Origin Checker
 """)
-choice = input("Choice: ")
+while True:
+	choice = input("Choice: ")
+	
+	if choice == "1":
+		print("Minecraft checker")
+
+	if choice == "2":
+		print("spotify checker")
+
+	if choice == "3":
+		print("gmail checker")
+
+	if choice == "4":
+		print("uplay checker")
+
+	if choice == "5":
+		print("steam checker")
+
+	if choice == "6":
+		print("origin checker")
